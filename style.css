@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #001e4d;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.app {
+    background-color: #fff;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    margin: 100px auto 0;
+    border-radius: 10px;
+} 
+
+.app h1 {
+    border: 1px solid #001e4d;
+    padding: 10px;
+    overflow: auto;
+}
+
+.quiz {
+    padding: 10px;
+    margin: 10px;
+}
+
+.quiz .btn {
+    display: flex;
+    overflow: auto;
+    align-items: left;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0;
+    border-radius: 3px solid #222;
+}
+
+.quiz .btn:hover {
+    background: #222;
+    cursor: pointer;
+}
+
+.next-btn {
+    background: #001e4d;
+    width: 20%;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
